@@ -106,7 +106,9 @@ export class AnthropicProvider implements LlmProvider {
       });
     }
 
-    return response.content[0].type === 'text' ? response.content[0].text : '';
+    const first = Array.isArray(response.content) ? response.content[0] : undefined;
+    if (!first) return '';
+    return first.type === 'text' ? (first.text ?? '') : '';
   }
 
   private formatMessagesWithCaching(messages: ChatMessage[]): Anthropic.Messages.MessageParam[] {

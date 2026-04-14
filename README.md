@@ -1,5 +1,7 @@
 # Multi-Agent Medical Triage Conductor
 
+![Portfolio CI](https://github.com/ai-craftsman404/Multi-Agent-Medical-Triage-Conductor/actions/workflows/portfolio-ci.yml/badge.svg)
+
 A Next.js 14 application, based on semantic kernel supported in Azure AI Foundry.
 that orchestrates multiple AI agents to perform clinical triage, providing risk 
 assessment and care pathway recommendations for medical symptoms.
