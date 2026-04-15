@@ -2,8 +2,12 @@
 
 ![Portfolio CI](https://github.com/ai-craftsman404/Multi-Agent-Medical-Triage-Conductor/actions/workflows/portfolio-ci.yml/badge.svg)
 
+This system orchestrates multiple clinical agents to convert symptom intake into risk-stratified triage guidance and care pathways.
+
+**Proof links:** [Release v0.1.0](https://github.com/ai-craftsman404/Multi-Agent-Medical-Triage-Conductor/releases/tag/v0.1.0) · [Demo/Quickstart](#-quick-start) · [Architecture](#-architecture)
+
 A Next.js 14 application, based on semantic kernel supported in Azure AI Foundry.
-that orchestrates multiple AI agents to perform clinical triage, providing risk 
+that orchestrates multiple AI agents to perform clinical triage, providing risk
 assessment and care pathway recommendations for medical symptoms.
 
 ## 🚀 Quick Start
